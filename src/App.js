@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './Component/Greet';
 import Welcome from './Component/Welcome';
 import Message from './Component/Message';
+import Counter from './Component/Counter';
 
 class App extends Component {
   render(){
@@ -15,8 +16,9 @@ class App extends Component {
         <Greet name="Dhyana"></Greet>
         <Greet name="Alpesh"></Greet>
         <Welcome name="Mohini"></Welcome>
-        <Welcome name="Dhyana"></Welcome> */}
-        <Message></Message>
+        <Welcome name="Dhyana"></Welcome> 
+        <Message></Message>*/}
+        <Counter></Counter>
       </div>
     );
   }
