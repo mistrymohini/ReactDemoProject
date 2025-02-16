@@ -8,8 +8,19 @@ class Message extends Component{
             message:"Hello World!"
         }
     }
+    changeMessage()
+    {
+        this.setState({
+            message:"Thank you for Submit."
+        })
+    }
     render(){
-        return <h2> {this.state.message}</h2>
+        return(
+            <div>
+                <h2> {this.state.message}</h2>
+                <button onClick={() =>this.changeMessage()}>Submit</button>
+            </div>
+        )
     }
 }
 
