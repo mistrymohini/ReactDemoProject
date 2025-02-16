@@ -8,7 +8,9 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <Greet name="Mohini"></Greet>
+        <Greet name="Mohini">
+          <p>This is first Candidate</p>
+        </Greet>
         <Greet name="Dhyana"></Greet>
         <Greet name="Alpesh"></Greet>
         {/* <Welcome></Welcome> */}
