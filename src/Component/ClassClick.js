@@ -7,15 +7,20 @@ import React, { Component } from 'react'
       this.state = {
          message:'Hello!'
       }
-      this.clickHandler=this.clickHandler.bind(this);
+      //this.clickHandler=this.clickHandler.bind(this);
     }
-    clickHandler()
-    {
+    clickHandler=()=>{
         this.setState({
             message:'Good Bye!'
         })
-        //console.log("Button clicked from Class Component");
     }
+    // clickHandler()
+    // {
+    //     this.setState({
+    //         message:'Good Bye!'
+    //     })
+    //     //console.log("Button clicked from Class Component");
+    // }
   render() {
     return (
         <div>
