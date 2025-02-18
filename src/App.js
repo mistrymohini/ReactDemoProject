@@ -12,7 +12,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <FunctionClick></FunctionClick>
+        {/* <FunctionClick></FunctionClick> */}
         <ClassClick></ClassClick>
         {/* <Greet name="Mohini">
           <p>This is first Candidate</p>
