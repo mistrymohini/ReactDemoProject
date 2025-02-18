@@ -12,13 +12,13 @@ class App extends Component {
       <div className="App">
         {/* <Greet name="Mohini">
           <p>This is first Candidate</p>
-        </Greet>
+        </Greet> */}
         <Greet name="Dhyana"></Greet>
-        <Greet name="Alpesh"></Greet>
-        <Welcome name="Mohini"></Welcome>
+        {/* <Greet name="Alpesh"></Greet>
+        <Welcome name="Mohini"></Welcome> */}
         <Welcome name="Dhyana"></Welcome> 
-        <Message></Message>*/}
-        <Counter></Counter>
+        {/* <Message></Message>
+        <Counter></Counter> */}
       </div>
     );
   }
