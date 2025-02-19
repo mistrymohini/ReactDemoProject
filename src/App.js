@@ -7,13 +7,15 @@ import Message from './Component/Message';
 import Counter from './Component/Counter';
 import FunctionClick from './Component/FunctionClick';
 import ClassClick from './Component/ClassClick';
+import ParentComponent from './Component/ParentComponent';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
+        <ParentComponent/>
         {/* <FunctionClick></FunctionClick> */}
-        <ClassClick></ClassClick>
+        {/* <ClassClick></ClassClick> */}
         {/* <Greet name="Mohini">
           <p>This is first Candidate</p>
         </Greet> 
