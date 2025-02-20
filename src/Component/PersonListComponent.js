@@ -2,6 +2,8 @@ import React from 'react'
 import Person from './Person'
 
 export default function PersonListComponent() {
+const names=['Mohini','Dhyana']
+
     const persons=[{
         id:1,
         name:'Mohini',
@@ -15,7 +17,9 @@ export default function PersonListComponent() {
 
     const personList=persons.map(person=> <Person key={person.id} person={person}/>)
 
+    const nameList=names.map(name=> <h2 key={name} >{name}</h2>)
+
   return (
-    <div>{personList}</div>
+    <div>{nameList}</div>
   )
 }
