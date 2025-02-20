@@ -8,12 +8,14 @@ import Counter from './Component/Counter';
 import FunctionClick from './Component/FunctionClick';
 import ClassClick from './Component/ClassClick';
 import ParentComponent from './Component/ParentComponent';
+import ConditionalComponent from './Component/ConditionalComponent';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <ParentComponent/>
+        <ConditionalComponent/>
+        {/* <ParentComponent/> */}
         {/* <FunctionClick></FunctionClick> */}
         {/* <ClassClick></ClassClick> */}
         {/* <Greet name="Mohini">
