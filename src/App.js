@@ -9,12 +9,14 @@ import FunctionClick from './Component/FunctionClick';
 import ClassClick from './Component/ClassClick';
 import ParentComponent from './Component/ParentComponent';
 import ConditionalComponent from './Component/ConditionalComponent';
+import PersonListComponent from './Component/PersonListComponent';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <ConditionalComponent/>
+        <PersonListComponent></PersonListComponent>
+        {/* <ConditionalComponent/> */}
         {/* <ParentComponent/> */}
         {/* <FunctionClick></FunctionClick> */}
         {/* <ClassClick></ClassClick> */}
