@@ -5,14 +5,16 @@ class ConditionalComponent extends Component {
       super(props)
     
       this.state = {
-         isLoggedIn:false
+         isLoggedIn:true
       }
     }
 
    
    render() {
-    
-    return this.state.isLoggedIn?<div>Welcome Mohini</div>:<div>Welcome Guest</div>
+
+    return this.state.isLoggedIn && <div>Welcome Mohini</div>
+
+    //return this.state.isLoggedIn?<div>Welcome Mohini</div>:<div>Welcome Guest</div>
 
     // let message
     // if(this.state.isLoggedIn)
