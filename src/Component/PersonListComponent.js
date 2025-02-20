@@ -17,6 +17,10 @@ const names=['Mohini','Dhyana','Mohini']
 
     const personList=persons.map(person=> <Person key={person.id} person={person}/>)
 
+    ////Use index as key
+    // // when you have no unique id
+    ////list is static and will not change
+    ////never be re-order or filter
     const nameList=names.map((name,index)=> <h2 key={index} >{name}</h2>)
 
   return (
