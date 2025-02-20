@@ -1,4 +1,5 @@
 import React from 'react'
+import Person from './Person'
 
 export default function PersonListComponent() {
     const persons=[{
@@ -12,8 +13,8 @@ export default function PersonListComponent() {
         skill:'React'
     }]
 
-    const personList=persons.map(person=> <h2>{person.name} knows {person.skill}</h2>)
-    
+    const personList=persons.map(person=> <Person person={person}/>)
+
   return (
     <div>{personList}</div>
   )
