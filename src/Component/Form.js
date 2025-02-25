@@ -27,6 +27,7 @@ class Form extends Component {
     }
     handleSubmit=event=>{
         alert(`User Name: ${this.state.username} Comment: ${this.state.comment} Topic: ${this.state.topic}`);
+        event.preventDefault();
     }
   render() {
     return (
