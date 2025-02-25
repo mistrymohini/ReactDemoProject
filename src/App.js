@@ -10,12 +10,14 @@ import ClassClick from './Component/ClassClick';
 import ParentComponent from './Component/ParentComponent';
 import ConditionalComponent from './Component/ConditionalComponent';
 import PersonListComponent from './Component/PersonListComponent';
+import Form from './Component/Form';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <PersonListComponent></PersonListComponent>
+        <Form/>
+        {/* <PersonListComponent></PersonListComponent> */}
         {/* <ConditionalComponent/> */}
         {/* <ParentComponent/> */}
         {/* <FunctionClick></FunctionClick> */}
