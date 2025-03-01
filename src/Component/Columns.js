@@ -2,11 +2,11 @@ import React from 'react'
 
 function Columns() {
   return (
-    <div>
+    <React.Fragment>
         <td>First Name</td>
         <td>Last Name</td>
         <td>Age</td>
-    </div>
+    </React.Fragment>
   )
 }
 
