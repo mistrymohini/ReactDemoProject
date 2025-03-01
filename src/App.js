@@ -18,23 +18,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <Table/>
-        {/* <LifecycleA/> */}
-        {/* <Form/> */}
-        {/* <PersonListComponent></PersonListComponent> */}
-        {/* <ConditionalComponent/> */}
-        {/* <ParentComponent/> */}
-        {/* <FunctionClick></FunctionClick> */}
-        {/* <ClassClick></ClassClick> */}
-        {/* <Greet name="Mohini">
-          <p>This is first Candidate</p>
-        </Greet> 
-        <Greet name="Dhyana"></Greet>
-        <Greet name="Alpesh"></Greet>
-        <Welcome name="Mohini"></Welcome> 
-        <Welcome name="Dhyana"></Welcome> 
-        <Message></Message>
-        <Counter></Counter> */}
+       
       </div>
     );
   }
