@@ -12,12 +12,14 @@ import ConditionalComponent from './Component/ConditionalComponent';
 import PersonListComponent from './Component/PersonListComponent';
 import Form from './Component/Form';
 import LifecycleA from './Component/LifecycleA';
+import Table from './Component/Table';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <LifecycleA/>
+        <Table/>
+        {/* <LifecycleA/> */}
         {/* <Form/> */}
         {/* <PersonListComponent></PersonListComponent> */}
         {/* <ConditionalComponent/> */}
