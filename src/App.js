@@ -1,22 +1,15 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ErrorShow from './Component/ErrorShow';
-import ErrorBoundry from './Component/ErrorBoundry';
+import ClickCounter from './Component/ClickCounter';
+import HoverCounter from './Component/HoverCounter';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <ErrorBoundry>
-        <ErrorShow heroName="Batman"/>
-        </ErrorBoundry>
-        <ErrorBoundry>
-        <ErrorShow heroName="Spiderman"/>
-        </ErrorBoundry>
-        <ErrorBoundry>
-        <ErrorShow heroName="Joker"/>
-        </ErrorBoundry>
+        <ClickCounter/>
+        <HoverCounter/>
       </div>
     );
   }
