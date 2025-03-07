@@ -9,15 +9,22 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <RenderCounter render={(count,incrementCount)=>(
+        {/* <RenderCounter render={(count,incrementCount)=>(
           <ClickCounter count={count} incrementCount={incrementCount} />
         )}
-        />
+        /> */}
 
-        <RenderCounter render={(count,incrementCount)=>(
-          <HoverCounter count={count} incrementCount={incrementCount} />
-        )}
-        />
+        <RenderCounter>
+          {(count,incrementCount)=>(
+            <ClickCounter count={count} incrementCount={incrementCount} />
+          )}
+        </RenderCounter>
+
+        <RenderCounter>
+          {(count,incrementCount)=>(
+            <HoverCounter count={count} incrementCount={incrementCount} />
+          )}
+        </RenderCounter> 
         {/* <ClickCounter name='Mohini'/>
         <HoverCounter/> */}
       </div>
