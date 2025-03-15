@@ -4,29 +4,16 @@ import './App.css';
 import ClickCounter from './Component/ClickCounter';
 import HoverCounter from './Component/HoverCounter';
 import RenderCounter from './Component/RenderCounter';
+import ComponentC from './Component/ComponentC';
+import { UserProvider } from './Component/UserContext';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        {/* <RenderCounter render={(count,incrementCount)=>(
-          <ClickCounter count={count} incrementCount={incrementCount} />
-        )}
-        /> */}
-
-        <RenderCounter>
-          {(count,incrementCount)=>(
-            <ClickCounter count={count} incrementCount={incrementCount} />
-          )}
-        </RenderCounter>
-
-        <RenderCounter>
-          {(count,incrementCount)=>(
-            <HoverCounter count={count} incrementCount={incrementCount} />
-          )}
-        </RenderCounter> 
-        {/* <ClickCounter name='Mohini'/>
-        <HoverCounter/> */}
+        <UserProvider value='Mohini'>
+          <ComponentC/>
+        </UserProvider>
       </div>
     );
   }
